@@ -11,42 +11,40 @@
   "profile": {
     "name": "typicode"
   },
-  "simulacao": {
-    dtMinCarencia: "06.03.2023",
-    dtMaxCarencia: "14.06.2023",
-    qtdOfertas: 1,
-    ofertas: [
-      {
-        nsmulaEmptm: 117642705,
-        cindcdPermSegur: false,
-        vlrIof: 1963.67,
-        percIof: 3.040,
-        vlrTac: 0.00,
-        percTac: 0.00,
-        vlrSeguro: 0.00,
-        percSeguro: 0.00,
-        vpgtoAutrzTotal: 2227.90,
-        ppgtoAutrzTotal: 3.450,
-        vlrSolicitado: 62400.00,
-        vlrEmprestimo: 64627.90,
-        vlrPcela: 2545.62,
-        qtdPcelas: 36,
-        taxaJurosMes: 1.9900000,
-        taxaJurosAno: 26.6750550,
-        pcustoEfetvMes: 2.2400000,
-        pcustoEfetvAno: 30.4200000,
-        dtContratacao: "14.02.2023",
-        dvctoPrimPcela: "16.03.2023",
-        dvctoUltiPcela: "18.02.2026",
-        escolhida: true,
-        getpVlrSolicitado: 96.550,
-        vlrPgtoTerceiro: 0.00,
-        getpPgtoTerceiro: 0.00,
-        getpCustoRegistro: 0.410,
-        indicadorSeguroContratado: true,
-        controleSeguroPrestamista: 0,
-        codigoPlanoSeguro: 0
-      }
-    ]
-  }
+  "simulacao": [
+    {
+        "dtMinCarencia": "20.03.2023",
+        "dtMaxCarencia": "16.06.2023",
+        "qtdOfertas": 1,
+        "ofertas": [
+            {
+                "nsmulaEmptm": 117646370,
+                "cindcdPermSegur": false,
+                "vlrIof": 1005.61,
+                "percIof": 0,
+                "vlrTac": 0,
+                "percTac": 0,
+                "vlrSeguro": 0,
+                "percSeguro": 0,
+                "vpgtoAutrzTotal": 0,
+                "ppgtoAutrzTotal": 0,
+                "vlrSolicitado": 50856,
+                "vlrEmprestimo": 51861.61,
+                "vlrPcela": 2896.95,
+                "qtdPcelas": 20,
+                "taxaJurosMes": 1.02,
+                "taxaJurosAno": 12.9505552,
+                "pcustoEfetvMes": 0,
+                "pcustoEfetvAno": 0,
+                "dtContratacao": "16.02.2023",
+                "dvctoPrimPcela": "30.03.2023",
+                "dvctoUltiPcela": "30.10.2024",
+                "pVlrSolicitado": 100,
+                "vlrPgtoTerceiro": 0,
+                "pPgtoTerceiro": 0,
+                "pCustoRegistro": 0
+            }
+        ]
+    }
+]
 }
